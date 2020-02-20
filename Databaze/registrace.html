@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.php">Domů</a>
-        <a href="registrace.html">Registrace</a>
-        <a href="prihlaseni.html">Přihlášení</a>
-    </nav>
-    <nav>
+    <header>
         <h1>Registrace</h1>
-        <form method="post" action="registrace.php">
-            <input type="text" name="jmeno" placeholder="Jméno..." /><br />
-            <input type="password" name="heslo" placeholder="Heslo..." /><br />
-            <input type="password" name="heslo_znova" placeholder="Znovu heslo..." /><br />
-            <input type="submit" value="Registrovat" />
-    </nav>
+        <nav>
+            <a href="index.html">Domů</a>
+            <a href="prihlaseni.html">Přihlášení</a>
+        </nav>
+    </header>
+    <main>
+        <nav>
+            <form method="post" action="registrace.php">
+                <input type="text" name="jmeno" placeholder="Jméno..." /><br />
+                <input type="password" name="heslo" placeholder="Heslo..." /><br />
+                <input type="password" name="heslo_znova" placeholder="Znovu heslo..." /><br />
+                <input type="submit" value="Registrovat" />
+            </form>
+        </nav>
+    </main>
     <footer>
         Copyright &copy; Jiří Obst, Filip Neumann, Tomáš Prouza 2020
     </footer>
